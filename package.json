@@ -4,6 +4,7 @@
   "description": "Trello's client.js, able to be required in node or browser. Nothing more, nothing less.",
   "main": "client.js",
   "scripts": {
+    "preversion": "wget https://api.trello.com/1/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
